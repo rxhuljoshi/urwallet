@@ -12,7 +12,7 @@ urWallet helps you track expenses, set budgets, and get AI-powered insights abou
 | 🤖 **AI Categorization** | Automatic transaction categorization using Groq AI |
 | 💡 **AI Insights** | Monthly spending analysis and recommendations |
 | ⚠️ **Spike Detection** | Alerts when spending increases significantly |
-| 🔐 **Firebase Auth** | Secure authentication with Google Sign-In |
+| 🔐 **Supabase Auth** | Secure authentication with Google Sign-In |
 | 🌙 **Dark/Light Mode** | Theme customization |
 | 💵 **Multi-Currency** | Support for USD, EUR, GBP, INR, and more |
 
@@ -29,7 +29,7 @@ urWallet helps you track expenses, set budgets, and get AI-powered insights abou
          │                       │
          ▼                       ▼
 ┌─────────────────┐     ┌─────────────────┐
-│    Firebase     │     │     Groq AI     │
+│    Supabase     │     │     Groq AI     │
 │ Authentication  │     │   (LLaMA 3.3)   │
 └─────────────────┘     └─────────────────┘
 ```
@@ -38,7 +38,7 @@ urWallet helps you track expenses, set budgets, and get AI-powered insights abou
 
 | Repository | Description | Tech Stack |
 |------------|-------------|------------|
-| [**urwallet-backend**](https://github.com/rxhuljoshi/urwallet-backend) | REST API server | FastAPI, PostgreSQL, Firebase Admin |
+| [**urwallet-backend**](https://github.com/rxhuljoshi/urwallet-backend) | REST API server | FastAPI, PostgreSQL, Supabase |
 | [**urwallet-frontend**](https://github.com/rxhuljoshi/urwallet-frontend) | Web application | React 19, TailwindCSS, shadcn/ui |
 
 ## Quick Start
@@ -46,7 +46,7 @@ urWallet helps you track expenses, set budgets, and get AI-powered insights abou
 ### Prerequisites
 
 - Docker & Docker Compose
-- Firebase project with Authentication enabled
+- Supabase project with Authentication enabled
 - (Optional) Groq API key for AI features
 
 ### Clone with Submodules
@@ -95,7 +95,7 @@ docker-compose up -d
 | Frontend | React 19, TailwindCSS, shadcn/ui, Recharts |
 | Backend | Python FastAPI, SQLAlchemy (async) |
 | Database | PostgreSQL |
-| Auth | Firebase Authentication |
+| Auth | Supabase Authentication |
 | AI | Groq (LLaMA 3.3 70B) |
 | Container | Docker, Docker Compose |
 | Web Server | Nginx (production) |
