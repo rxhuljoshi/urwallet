@@ -14,7 +14,7 @@ urWallet helps you track expenses, set budgets, and get AI-powered insights abou
 | ⚠️ **Spike Detection** | Alerts when spending increases significantly |
 | 🔐 **Supabase Auth** | Secure authentication with Google Sign-In |
 | 🌙 **Dark/Light Mode** | Theme customization |
-| 💵 **Multi-Currency** | Support for USD, EUR, GBP, INR, and more |
+| 💵 **Multi-Currency** | Select currency per transaction (9 currencies supported) |
 
 ## Architecture
 
